@@ -1,0 +1,22 @@
+The source data file AlkaneC4toC16.csv has different features associated with it.
+
+Columns:
+        Data_Source              : The code associated with a source of the data (Data is obtained from multiple sources. This code is useful to identify the source)
+        Diluant Type             : Diluant used Ar/N2
+        Diluant(%)               : Percentage of diluant used
+        Equv(phi)                : Equivalence ratio
+        Fuel                     : SMILE of fuel (useful to extract bonds)
+        Fuel(%)                  : Percentage of fuel used
+        Measured_wavelength(nm)  : Species are measured at wavelength
+        Mode_of_measurement      : Type of technique used to measure Ignition delay time. (Species/Pressure/Temperature profile)
+        Oxidizer(%)              : Percentage of oxygen supplied
+        P(atm)                   : Shock-tube Pressure 
+        P_Error(%)               : Error in measurement of pressure
+        Research_group           : Indicates data associated with combuston group
+        Shocktube_dia(cm)        : Diameter of shock-tube used to measure the ignition delay
+        Species_measurement_Error: Error in measurement of species profile
+        Species_name             : Species name by which ignition delay is meeasured
+        T(K)                     : Reported temperature at which ignition delay is measured
+        T_Error(%)               : Error in measurement of temperature
+        Time(μs)                 : Ignition delay time (target variable)
+
