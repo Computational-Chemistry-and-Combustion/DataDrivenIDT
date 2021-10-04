@@ -44,8 +44,8 @@ for i in range(len(fileName)):
     vals = clusterFuelCount[i][:]
     bar.append(plt.bar(ind+(width*i), vals, width, color=color[i]))
     
-plt.xlabel("length of staright chain alkane")
-plt.ylabel("Count of data poins")
+plt.xlabel("Length of staright chain alkane")
+plt.ylabel("Count of data points")
 plt.title("Count of fuel in each cluster")
 plt.xticks(ind+width,fuelLength)
 plt.legend( tuple(bar) , fileName )
@@ -63,8 +63,8 @@ for i in range(len(fileName)):
     vals = clusterFuelCountFraction[i][:]
     bar.append(plt.bar(ind+(width*i), vals, width, color=color[i]))
     
-plt.xlabel("length of staright chain alkane")
-plt.ylabel("Fraction of data poins")
+plt.xlabel("Length of straight chain alkane")
+plt.ylabel("Fraction of data points")
 plt.title("Fraction of fuel in each cluster")
 plt.xticks(ind+width,fuelLength)
 plt.legend( tuple(bar) , fileName )

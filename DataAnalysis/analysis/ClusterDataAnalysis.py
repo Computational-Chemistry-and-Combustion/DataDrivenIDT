@@ -46,7 +46,7 @@ for i in range(len(fileName)):
 
 plt.rc('text', usetex=True)
 fontsize=19
-plt.xlabel("length of staright chain alkane",fontsize=fontsize)
+plt.xlabel("Length of straight chain alkane",fontsize=fontsize)
 plt.ylabel("Count of data points",fontsize=fontsize)
 plt.title("Count of fuel in each cluster",fontsize=fontsize)
 plt.xticks(ind+width,fuelLength,fontsize=fontsize)
@@ -67,7 +67,7 @@ for i in range(len(fileName)):
     vals = clusterFuelCountFraction[i][:]
     bar.append(plt.bar(ind+(width*i), vals, width, color=color[i]))
     
-plt.xlabel("length of staright chain alkane",fontsize=fontsize)
+plt.xlabel("Length of straight chain alkane",fontsize=fontsize)
 plt.ylabel("Fraction of data points",fontsize=fontsize)
 plt.title("Fraction of fuel in each cluster",fontsize=fontsize)
 plt.xticks(ind+width,fuelLength,fontsize=fontsize)
