@@ -1,0 +1,11 @@
+0. Configure .bashrc as given in manual 
+0. Install all requirements
+1. Go in any example
+2. Write command 
+        IDprediction -c 0.1 -t train.csv
+        IDprediction -e test.csv
+   or you can also run,
+        Run_command.sh
+
+Make sure Run.sh file in yout source direcctory is executable.
+

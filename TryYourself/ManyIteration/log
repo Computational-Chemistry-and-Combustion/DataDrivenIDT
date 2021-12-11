@@ -1,0 +1,64 @@
+16-Dec -----------------------
+
+Try running with test(40,30,20,15,10,5) train set 
+Divided data into cluster and from each cluster picking fixed train-test ratio'
+
+Trial-1 : Test-40%
+cluster-1 : 0.5141790091476091
+cluster-2 : 0.27961031352191495
+cluster-3 : 0.18381094487408953
+
+Trial-1 : Test-30%
+cluster-1 : 0.5135069072394185
+cluster-2 : 0.25342162459884926
+cluster-3 : 0.2618339882677555
+
+
+Trial-1 : Test-20%
+cluster-1 : 0.37504431071393285
+cluster-2 : 0.27961031352191495
+cluster-3 : 0.30351851387553286
+
+
+Trial-1 : Test-15%
+cluster-1 : 0.043377845109206094
+cluster-2 : 0.25442294524455983
+cluster-3 : 0.27842517832443275
+
+Trial-1 : Test-10%
+cluster-1 : 0.012293081577022781
+cluster-2 : 0.21302210672571348
+cluster-3 : 0.045643317757795926
+
+Trial-2 : Test-10%
+cluster-1 : 0.05033952334562069
+cluster-2 : 0.2111121259095492
+cluster-3 : 0.2756011826141448
+
+Trial-3 : Test-10%
+cluster-1 : 0.03990168340377131
+cluster-2 : 0.11555528959281294
+cluster-3 : 0.15019309596618474
+
+17-Dec---------------------
+Cluster data working on 10%
+Fixed testset updated 
+removed internal testing module for each node 
+by adding other module
+
+18-Dec--------------------
+Filtered data points for testing 
+all set... let's run module 5000 times
+last time and verify the module
+
+Training - 95% data (Random Pick)
+Testing - 5% data (Random Pick)
+Fixed Test - 18 Data Points
+
+19-Dec --------------------
+removedd few points in train set 
+1 point from each fuelll
+
+
+
+

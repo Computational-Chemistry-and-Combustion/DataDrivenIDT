@@ -1,0 +1,2 @@
+IDprediction --algo GMM --train trainset.csv --n 5
+IDprediction --algo GMM --test testset.csv
