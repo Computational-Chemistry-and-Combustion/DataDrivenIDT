@@ -7,7 +7,7 @@
 ![GitHub](https://img.shields.io/github/license/Computational-Chemistry-and-Combustion/DataDrivenIDT)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Computational-Chemistry-and-Combustion/DataDrivenIDT)
 [![Open Source Love](https://img.shields.io/badge/Open-source-%3C3)](https://img.shields.io/badge/Open-source-%3C3)
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)](https://twitter.com/intent/tweet?text=Are\+you\+working\+with\+regression?\+Try\+out\+clustering-based\+regression\+algorithm:&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)](https://twitter.com/intent/tweet?text=Want\+to\+predict\+ignition\+delay\+?\+Try\+out\+DataDrivenIDT\+Framework:&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)
 
 
 ## About The Project:
