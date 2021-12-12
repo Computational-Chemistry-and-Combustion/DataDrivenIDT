@@ -51,7 +51,6 @@ script:
 
   - echo 'Checking Bond Details for Heptane'
   - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
-  - rm -R -- */
   - $TRAVIS_BUILD_DIR/Run.sh --b CCCCCCC
   - bash <(curl -s https://codecov.io/bash) -cF python
 
@@ -84,8 +83,10 @@ script:
   - $TRAVIS_BUILD_DIR/Run.sh --algo spath --train trainset.csv --i 200 --n 3
   - bash <(curl -s https://codecov.io/bash) -cF python
 
-  - echo 'External test'
-  - rm -R -- */  
+  - cd ..
+  - cd Abalone/
+  
+  - echo 'GMM on Abalone'
   - $TRAVIS_BUILD_DIR/Run.sh --algo GMM --train trainset.csv --n 3     
   - bash <(curl -s https://codecov.io/bash) -cF python
 

@@ -238,3 +238,5 @@ Make appropriate changes in **’feature selection.py'** file to change features
       </a>
 </dl>
 
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT?ref=badge_large)
