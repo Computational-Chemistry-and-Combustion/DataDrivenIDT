@@ -82,7 +82,6 @@ script:
   - cd BostonHousingPrice_spath/
   
   - echo 'Spath algorithm'
-  - rm -R -- */  
   - $TRAVIS_BUILD_DIR/Run.sh --algo spath --train trainset.csv --i 200 --n 3
   - bash <(curl -s https://codecov.io/bash) -cF python
 

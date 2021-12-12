@@ -231,11 +231,11 @@ Make appropriate changes in **’feature selection.py'** file to change features
 
 <dl>
       <a href="https://krithikasivaram.github.io">
-         <img alt="CCC Group" src="https://github.com/pragneshrana/logos/blob/master/logo.jpg"
+         <img alt="CCC Group" src="https://github.com/pragneshrana/logos/blob/master/c3/image.png"
          width=100" height="100">
       </a>
       <a href="http://sivaramambikasaran.com/">
-         <img alt="SAFRAN Group" src="https://github.com/pragneshrana/logos/blob/master/17197871.png"
+         <img alt="SAFRAN Group" src="https://github.com/pragneshrana/logos/blob/master/safran/17197871.png"
          width=100" height="100">
       </a>
 </dl>
