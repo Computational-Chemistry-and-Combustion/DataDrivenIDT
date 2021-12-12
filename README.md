@@ -1,6 +1,13 @@
-<a href="https://zenodo.org/badge/latestdoi/401826366"><img src="https://zenodo.org/badge/401826366.svg" alt="DOI"></a>
-
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5774617.svg)](https://doi.org/10.5281/zenodo.5774617)
+[![CodeFactor](https://www.codefactor.io/repository/github/computational-chemistry-and-combustion/datadrivenidt/badge/main)](https://www.codefactor.io/repository/github/computational-chemistry-and-combustion/datadrivenidt/overview/main)
+[![codecov](https://codecov.io/gh/Computational-Chemistry-and-Combustion/DataDrivenIDT/branch/main/graph/badge.svg?token=N83D9RS9HQ)](https://codecov.io/gh/Computational-Chemistry-and-Combustion/DataDrivenIDT)
+[![Build Status](https://app.travis-ci.com/Computational-Chemistry-and-Combustion/DataDrivenIDT.svg?branch=main)](https://app.travis-ci.com/Computational-Chemistry-and-Combustion/DataDrivenIDT)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FData_driven_Kinetics.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FData_driven_Kinetics?ref=badge_shield)
+![GitHub top language](https://img.shields.io/github/languages/top/Computational-Chemistry-and-Combustion/DataDrivenIDT)
+![GitHub](https://img.shields.io/github/license/Computational-Chemistry-and-Combustion/DataDrivenIDT)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Computational-Chemistry-and-Combustion/DataDrivenIDT)
+[![Open Source Love](https://img.shields.io/badge/Open-source-%3C3)](https://img.shields.io/badge/Open-source-%3C3)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)](https://twitter.com/intent/tweet?text=Are\+you\+working\+with\+regression?\+Try\+out\+clustering-based\+regression\+algorithm:&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)
 
 
 ## About The Project:
@@ -229,10 +236,5 @@ Make appropriate changes in **’feature selection.py'** file to change features
          <img alt="SAFRAN Group" src="https://github.com/pragneshrana/logos/blob/master/17197871.png"
          width=100" height="100">
       </a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT.svg?type=shield"/></a>
 </dl>
 
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT?ref=badge_large)

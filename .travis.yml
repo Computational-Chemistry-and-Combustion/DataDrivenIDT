@@ -51,38 +51,45 @@ script:
 
   - echo 'Checking Bond Details for Heptane'
   - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - rm -R -- */
   - $TRAVIS_BUILD_DIR/Run.sh --b CCCCCCC
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - echo 'Generating Histograms of parameters for each fuel'
   - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - rm -R -- */
   - $TRAVIS_BUILD_DIR/Run.sh --h trainset.csv
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - echo 'Multiple regression'
   - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - rm -R -- */  
   - $TRAVIS_BUILD_DIR/Run.sh --algo multi --train trainset.csv
   - $TRAVIS_BUILD_DIR/Run.sh --algo multi --test testset.csv
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - echo 'Multiple regression with significance and feature elimination'
   - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - rm -R -- */
   - $TRAVIS_BUILD_DIR/Run.sh --algo multi --train trainset.csv --r True --s 0.1
   - $TRAVIS_BUILD_DIR/Run.sh --algo multi --test testset.csv
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - echo 'Tree based clustering algorithm'
   - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - rm -R -- */  
   - $TRAVIS_BUILD_DIR/Run.sh --algo tree --train trainset.csv --c 0.1
   - $TRAVIS_BUILD_DIR/Run.sh --algo tree --test testset.csv
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - echo 'Spath algorithm'
+  - rm -R -- */  
   - $TRAVIS_BUILD_DIR/Run.sh --algo spath --train trainset.csv --i 200 --n 3
   - $TRAVIS_BUILD_DIR/Run.sh --algo spath --test testset.csv
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - echo 'External test'
+  - rm -R -- */  
   - $TRAVIS_BUILD_DIR/Run.sh --algo GMM --train trainset.csv --n 3
   - $TRAVIS_BUILD_DIR/Run.sh --algo GMM --test testset.csv
   - $TRAVIS_BUILD_DIR/Run.sh --a pressure --sfile trainset.csv
