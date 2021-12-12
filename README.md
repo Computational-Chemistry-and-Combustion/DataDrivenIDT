@@ -12,7 +12,7 @@
 
 ## About The Project:
 
-:fire:  This repository can be used to develop training models using tree type regression-based clustering and make prediction using those models. The frame-work is customized for the ignition delay  data but with minor changes it works fine with any data having continuous dependent (output) variable. The algorithm uses error-based technique to divide the data into three clusters based on relative error in prediction and sign of prediction error to obtain the accurate regression models. Please look at the manual for more information.
+:fire:  This repository can be used to develop training models mentioned and make prediction using those models. The frame-work is designed for the ignition delay  data but with minor changes it works perfectly fine with any data having continuous dependent (output) variable.  Please look at the manual for more information.
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -121,7 +121,7 @@ All set!
 Now, open terminal and type following commands to generate result.
 
 ```sh
-IDprediction -flag file_name.csv
+IDprediction --flag argument
 ```
 
 Input arguments to 'IDprediction' are specified as below:
@@ -129,78 +129,80 @@ Input arguments to 'IDprediction' are specified as below:
 Consider the data file as 'file_name.csv'
 
 
-:fire:  **-a** : ‘**A**nalyze’ the data-set by selecting certain parameters
+:fire:  **-\-a** : ‘**A**nalyze’ the data-set by selecting certain parameters
 
 ```sh
-IDprediction -a  file_name.csv  
+IDprediction --a  manual --sfile file_name.csv 
 ```
 
-:fire:  **-b** : Find types of '**b**ond’ associated with given fuel
+:fire:  **-\-b** : Find types of '**b**ond’ associated with given fuel
 ```sh
-IDprediction -b  FuelSMILES
-IDprediction -b CCC
-IDprediction -b CCCCCC
+IDprediction --b  FuelSMILES
+IDprediction --b CCC
+IDprediction --b CCCCCC
 
 ```
 
-:fire:  **-h** : Generates '**h**istogram’ plots of parameters for each fuel individually
-
-```sh
-IDprediction -h  file_name.csv 
-```
-
-:fire:  **-c**  : To define the '**c**riteria' for error based clustering
-
-:fire:  **-l**   : To ‘**l**imit’ number of reference point
-
-:fire:  **-r**   : To '**r**emove’ feature by back-elimination
-
-:fire:  **-s**  : To specify **s**ignificance level
-
-
-:fire:  **-m** : To find out **m**ultiple linear regression of data 
+:fire:  **-\-h** : Generates '**h**istogram’ plots of parameters for each fuel individually
 
 ```sh
-IDprediction -c 0.05 -l 10 -r True -s 0.05  -m  file_name.csv 
+IDprediction --h  file_name.csv 
 ```
+:fire:  **-\-train**  : To train the algorithm using passed data
 
-:fire: **-t**  : ‘**T**ree’ type regression based clustering algorithm
+:fire:  **-\-test**  : To test the algorithm using passed data
+
+:fire:  **-\-c**  : To define the '**c**riteria' for error based clustering
+
+:fire:  **-\-l**   : To ‘**l**imit’ number of reference point
+
+:fire:  **-\-r**   : To '**r**emove’ feature by back-elimination
+
+:fire:  **-\-s**  : To specify **s**ignificance level
+
+:fire:  **-\-n**  : To specify **n**umber of clusters
+
+:fire:  **-\-i**  : To specify **I**terations limit
+
+:fire:  **-\-algo GMM** : To train the model using Gaussian Mixture Modelling
 
 ```sh
-IDprediction -c 0.05 -r False -t file_name.csv 
+IDprediction --algo GMM --train trainset.csv --n 3
+IDprediction --algo GMM --test testset.csv
 ```
+**Don’t forget to add  ’feature selection.py
+file’ for non-fuel data**
 
-:fire:  **-e** : '**E**xternal' Dataset used for prediction (Complete above Model generation first)
+:fire:  other implemented algorithms
 
 ```sh
-IDprediction -e  test_data.csv 
+IDprediction --algo tree --train trainset.csv --c 0.1 --l 20
+IDprediction --algo tree --test testset.csv
+
+IDprediction --algo multi --train trainset.csv --r True --s 0.1
+IDprediction --algo multi --test testset.csv
+
+IDprediction --algo spath --train trainset.csv --i 200 --n 3
+IDprediction --algo spath --test testset.csv
 ```
 
-:fire:  **-k**  : To run code multiple ‘(**k**)’ times and store all test prediction result in different directory
+:fire:  **--k**  : To run code multiple ‘(**k**)’ times and store all test prediction result in different directory
 
 ```sh
-IDprediction -k testset.csv
+IDprediction --k testset.csv
 ```
 
-:fire:  **-f**  : Probability density ‘**f**unction’ plot of testing result after running code 'k' times
+:fire:  **--f**  : Probability density ‘**f**unction’ plot of testing result after running code 'k' times
 
 ```sh
-IDprediction -f testset.csv
+IDprediction --f testset.csv
 ```
 
 
-:fire:  **-p**  : **P**lot and obtain of average value of coefficient from coefficient file (If coefficient result obtained many times and there is variation in coefficients)
+:fire:  **--p**  : **P**lot and obtain of average value of coefficient from coefficient file (If coefficient result obtained many times and there is variation in coefficients)
 ```sh
-IDprediction -p  coefficient_3.csv 
+IDprediction --p  coefficient_3.csv 
 ```
-
-:fire:  **-o**  : To run any '**o**ther’ dataset than fuel
-
-```sh
-IDprediction -c 0.05 -l 10 -o anyFile.csv
-```
-**Don’t forget to make changes in ’feature selection.py
-file’**
 
 ---
 ## Examples:
@@ -209,16 +211,16 @@ file’**
 Run the following commands to generate models and make predictions using Ignition delay data:
 ```sh
 cd TryYourself/nAlkaneIDT/
-IDprediction -c 0.1 -t trainset.csv
-IDprediction -e testset.csv
+IDprediction --algo GMM --train trainset.csv --n 3
+IDprediction --algo GMM --test testset.csv
 ```
 
 **Example:2**
 Run the following commands to generate models and make predictions using Wine quality data:
 ```sh
 cd TryYourself/WineQuality/
-IDprediction -c 0.1 -o trainset.csv
-IDprediction -e testset.csv
+IDprediction --algo GMM --train trainset.csv --n 5
+IDprediction --algo GMM --test testset.csv
 ```
 
 Make appropriate changes in **’feature selection.py'** file to change features accordingly to the data. (Check manual)
