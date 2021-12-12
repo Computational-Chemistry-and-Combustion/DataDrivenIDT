@@ -40,7 +40,3 @@ def PressureAnalysis(curr_dir,dataset_location):
         plt.tight_layout()
         plt.savefig(curr_dir+'/result/AnalysisResult/Pressure/'+i+'.jpg',dpi=600,orientation ='landscape')
         plt.close()
-
-
-
-

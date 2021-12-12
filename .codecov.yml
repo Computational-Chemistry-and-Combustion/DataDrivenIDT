@@ -1,0 +1,37 @@
+codecov:
+  require_ci_to_pass: yes
+# Coverage configuration
+# ----------------------
+coverage:
+  status:
+    patch: false
+  range: 70..90     # First number represents red, and second represents green # (default is 70..100)
+  round: up       # up, down, or nearest
+  precision: 0      # Number of decimal places, between 0 and 5
+parsers:
+  gcov:
+    branch_detection:
+      conditional: yes
+      loop: yes
+      method: no
+      macro: no
+comment:
+  layout: "reach,diff,flags,files,footer"
+  behavior: default
+  require_changes: no
+# Ignoring Paths
+# --------------
+# which folders/files to ignore
+ignore:
+  - "Data_driven_Kinetics/data/"
+  - "Data_driven_Kinetics/TryYourself/Abalone/"
+  - "Data_driven_Kinetics/examples/"
+  - "Data_driven_Kinetics/TryYourself/OctaneHexadecane_TestData/"
+  - "Data_driven_Kinetics/TryYourself/WineQuality/"
+  - "Data_driven_Kinetics/TryYourself/HowtoRun?"
+  - "Data_driven_Kinetics/src/combine_clusters.py"
+  - "Data_driven_Kinetics/src/find_fuel_type.py"
+  - "INSTALL.sh"
+  - "LICENSE"
+  - "Manual.pdf"
+  - "README.md"

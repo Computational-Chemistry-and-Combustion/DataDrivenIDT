@@ -211,7 +211,7 @@ def regression_train_test(dataset,y,curr_directory,cluster_label=0,test_size_fra
         ########################
         ''')
         coefficient_dictionary  = dict()
-        for i in range(len(regressor_OLS_modified.params)):
+        for i, item in enumerate(regressor_OLS_modified.params):
             print('\n',X_names_modified[i] ,': ', regressor_OLS_modified.params[i])
             f.write('\n'+str(X_names_modified[i])+':'+str(regressor_OLS_modified.params[i])+'\n')
             coefficient_dictionary[X_names_modified[i] ] =  round(regressor_OLS_modified.params[i],4)
@@ -431,7 +431,7 @@ def regression(dataset,y,curr_directory,cluster_label=0,test_size_fraction=0.05,
         ########################
         ''')
         coefficient_dictionary  = dict()
-        for i in range(len(regressor_OLS_modified.params)):
+        for i, item in enumerate(regressor_OLS_modified.params):
             print('\n',X_names_modified[i] ,': ', regressor_OLS_modified.params[i])
             f.write('\n'+str(X_names_modified[i])+':'+str(regressor_OLS_modified.params[i])+'\n')
             coefficient_dictionary[X_names_modified[i] ] =  round(regressor_OLS_modified.params[i],4)

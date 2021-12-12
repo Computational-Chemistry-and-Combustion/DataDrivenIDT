@@ -174,5 +174,3 @@ if __name__ == "__main__":
 	# combined = combined_N_analyze_all_test_result(dir_path)
 	# combined.process()
 	print('test')
-
-
