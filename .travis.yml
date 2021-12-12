@@ -77,12 +77,19 @@ script:
   - rm -R -- */  
   - $TRAVIS_BUILD_DIR/Run.sh --algo tree --train trainset.csv --c 0.1
   - bash <(curl -s https://codecov.io/bash) -cF python
+  
+  - echo 'Tree based clustering algorithm'
+  - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - rm -R -- */  
+  - $TRAVIS_BUILD_DIR/Run.sh --algo GMM --train trainset.csv --n 3
+  - bash <(curl -s https://codecov.io/bash) -cF python
 
   - cd ..
   - cd BostonHousingPrice_spath/
   
   - echo 'Spath algorithm'
-  - $TRAVIS_BUILD_DIR/Run.sh --algo spath --train trainset.csv --i 200 --n 3
+  - pwd>>$TRAVIS_BUILD_DIR/filelocation.txt
+  - $TRAVIS_BUILD_DIR/Run.sh --algo GMM --train trainset.csv --i 200 --n 3
   - bash <(curl -s https://codecov.io/bash) -cF python
 
   - cd ..
