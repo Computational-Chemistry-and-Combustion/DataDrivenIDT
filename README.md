@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5774617.svg)](https://doi.org/10.5281/zenodo.5774617)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5795476.svg)](https://doi.org/10.5281/zenodo.5795476)
 [![CodeFactor](https://www.codefactor.io/repository/github/computational-chemistry-and-combustion/datadrivenidt/badge/main)](https://www.codefactor.io/repository/github/computational-chemistry-and-combustion/datadrivenidt/overview/main)
 [![codecov](https://codecov.io/gh/Computational-Chemistry-and-Combustion/DataDrivenIDT/branch/main/graph/badge.svg?token=N83D9RS9HQ)](https://codecov.io/gh/Computational-Chemistry-and-Combustion/DataDrivenIDT)
 [![Build Status](https://app.travis-ci.com/Computational-Chemistry-and-Combustion/DataDrivenIDT.svg?branch=main)](https://app.travis-ci.com/Computational-Chemistry-and-Combustion/DataDrivenIDT)
