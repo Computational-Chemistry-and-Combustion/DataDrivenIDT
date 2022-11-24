@@ -1,5 +1,3 @@
-
-@@ -1,19 +1,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5774617.svg)](https://doi.org/10.5281/zenodo.5774617)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5795476.svg)](https://doi.org/10.5281/zenodo.5795476)
