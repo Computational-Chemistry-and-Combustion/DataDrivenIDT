@@ -14,7 +14,7 @@ class select_feature():
         # Adding constant Term in front#
         ################################
         #adding 'constant' name in the column headers
-        df.insert(0, 'Constant', np.ones(df.shape[0]))
+        # df.insert(0, 'Constant', np.ones(df.shape[0]))
         #################################
         # changing nan values with zeros#
         #################################
@@ -49,8 +49,8 @@ class select_feature():
             '''
             For result output column headers will be selected from these features
             '''     
-            # columns = ['CRIM','ZN','INDUS','CHAS','NOX','RM','AGE','DIS','RAD','TAX','PTRATIO','B','LSTAT']
-            columns = ['Constant','CRIM','ZN','INDUS','CHAS','NOX','RM','AGE','DIS','RAD','TAX','PTRATIO','B','LSTAT']
+            columns = ['CRIM','ZN','INDUS','CHAS','NOX','RM','AGE','DIS','RAD','TAX','PTRATIO','B','LSTAT']
+            # columns = ['Constant','CRIM','ZN','INDUS','CHAS','NOX','RM','AGE','DIS','RAD','TAX','PTRATIO','B','LSTAT']
             return columns
         
     def bond_extraction_cols():

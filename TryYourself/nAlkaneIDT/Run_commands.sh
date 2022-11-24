@@ -1,6 +1,6 @@
 #!/bin/bash
 ##Source the file first or run by : source ./Run_commands.sh
-export IDCODE="~/Data_driven_Kinetics/"
+export IDCODE="${HOME}/Data_driven_Kinetics/"
 export PATH=$PATH:$IDCODE
 alias IDprediction="pwd>~/Data_driven_Kinetics/filelocation.txt && Run.sh"
 
@@ -9,6 +9,6 @@ do
 	echo "******************"
 	echo "Running Cycle-$i"
 	echo "******************"
-	IDprediction -c 0.1 -t trainset.csv
-	IDprediction -e testset.csv
+	IDprediction --algo GMM --train trainset.csv --n 3
+	IDprediction --algo GMM --test testset.csv
 done

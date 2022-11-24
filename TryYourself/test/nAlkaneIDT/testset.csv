@@ -1,0 +1,42 @@
+Data_Source,Diluant Type,Diluant(%),Equv(phi),Fuel,Fuel(%),Measured_wavelength(nm),Mode_of_measurement,Oxidizer(%),P(atm),P_Error(%),Research_group,Shocktube_dia(cm),Species_measurement_Error,Species_name,T(K),T_Error(%),Time(μs)
+C1_C4_Alkanes,Ar,92.86,1,CCCC,0.95,430,Speceis,6.19,5.5,,Xi’an_Jiaotong,11.5,±2.36,CH,1355,±3,322
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.714,1,CCCCCCCCC,0.286,306,Species,4,3.46,±1,Stanford,14.13,±3,OH,1263,±0.7,1237
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.5,1,CCCCC,0.5,306,Species,4,3.75,±1,Stanford,14.13,±3,OH,1261,±0.7,1455
+C1_C4_Alkanes,Ar,92.86,1,CCCC,0.95,430,Speceis,6.19,1.25,,Xi’an_Jiaotong,11.5,±2.36,CH,1253,±3,1791
+n_hexadecane / hexadecane_diesel/Haylett_2011_thesis,Ar,95.8793,0.74,CCCCCCCCCCCCCCCC,0.1207,431,Species,4,2.05,,Stanford,15.3,±2,CH,1183,±2,4264
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.714,1,CCCCCCCCC,0.286,306,Species,4,3.45,±1,Stanford,14.13,±3,OH,1359,±0.7,349
+n_Dodecane / Vasu_2010_thesis,N2,96.304,0.5,CCCCCCCCCCCC,0.1,306,Species,3.596,16.73,,Stanford,5,±5,OH,1230,±1,429
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,85,1,CCCC,2,431,Speceis,13,1.15,±1,Stanford,15.3,±5,CH,1434,±1,180
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.857,0.5,CCCCCCCCC,0.143,306,Species,4,1.92,±1,Stanford,14.13,±3,OH,1305,±0.7,536
+n_Dodecane / Vasu_2010_thesis,N2,96.304,0.5,CCCCCCCCCCCC,0.1,306,Species,3.596,15.19,,Stanford,5,±5,OH,1158,±1,1181
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.714,1,CCCCCCCCC,0.286,306,Species,4,1.85,±1,Stanford,14.13,±3,OH,1307,±0.7,1002
+Horning_2001_thesis / Autoignition_ n_Alkane,Ar,95.2,1,CCCCCCC,0.4,431,Species,4.4,4.11,,Stanford,15.3,±5,CH,1463,±1,103
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,92.5,1,CCCC,1,431,Speceis,6.5,1.32,±1,Stanford,15.3,±5,CH,1483,±1,161
+C1_C4_Alkanes,Ar,92.86,1,CCCC,0.95,430,Speceis,6.19,1.49,,Xi’an_Jiaotong,11.5,±2.36,CH,1386,±3,485
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,92.5,1,CCCC,1,431,Speceis,6.5,1.99,±1,Stanford,15.3,±5,CH,1407,±1,297
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.5,1,CCCCC,0.5,306,Species,4,1.83,±1,Stanford,14.13,±3,OH,1426,±0.7,281
+blend_surrogate_fuels,N2,77.526,1,CCCCCCC,1.874,306.7,Species,20.6,54.2,,Stanford,5,,OH,1023,±1.8,261
+n_Dodecane_Nano,N2,99.1918,1,CCCCCCCCCCCC,0.051,430,Speceis,0.7572,2.07,,Stanford,15.3,,CH,1427,,655
+n_Dodecane_Nano,N2,99.2055,1,CCCCCCCCCCCC,0.0445,430,Speceis,0.75,2.33,,Stanford,15.3,,CH,1430,,349
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,95.75,2,CCCC,1,431,Speceis,3.25,1.08,±1,Stanford,15.3,±5,CH,1734,±1,105
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,92.5,1,CCCC,1,431,Speceis,6.5,2.02,±1,Stanford,15.3,±5,CH,1445,±1,186
+n_Dodecane / Vasu_2010_thesis,N2,78.107,1,CCCCCCCCCCCC,1.123,306,Species,20.77,23.4,,Stanford,5,±5,OH,907,±1,1081
+C1_C4_Alkanes,Ar,92.86,1,CCCC,0.95,430,Speceis,6.19,1.39,,Xi’an_Jiaotong,11.5,±2.36,CH,1332,±3,797
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.857,0.5,CCCCCCCCC,0.143,306,Species,4,1.96,±1,Stanford,14.13,±3,OH,1284,±0.7,781
+n_hexadecane / hexadecane_diesel/Haylett_2011_thesis,Ar,95.8168,1.12,CCCCCCCCCCCCCCCC,0.1832,431,Species,4,6.46,,Stanford,15.3,±2,CH,1327,±2,360
+n_hexadecane / hexadecane_diesel/Haylett_2011_thesis,Ar,95.8418,0.97,CCCCCCCCCCCCCCCC,0.1582,431,Species,4,1.89,,Stanford,15.3,±2,CH,1285,±2,1386
+Horning_2001_thesis / Autoignition_ n_Alkane,Ar,95.2,1,CCCCCCC,0.4,431,Species,4.4,4.22,,Stanford,15.3,±5,CH,1394,±1,227
+Lam_2013_thesis / Normal_Alkanes_and_Simple_Oxygenates,Ar,95.5,1,CCCCC,0.5,306,Species,4,3.41,±1,Stanford,14.13,±3,OH,1449,±0.7,162
+C1_C4_Alkanes,Ar,92.86,1,CCCC,0.95,430,Speceis,6.19,5.32,,Xi’an_Jiaotong,11.5,±2.36,CH,1477,±3,93
+n_Dodecane / Vasu_2010_thesis,N2,78.107,1,CCCCCCCCCCCC,1.123,306,Species,20.77,20.5,,Stanford,5,±5,OH,976,±1,800
+n_Dodecane / Vasu_2010_thesis,N2,78.107,1,CCCCCCCCCCCC,1.123,306,Species,20.77,19.4,,Stanford,5,±5,OH,1087,±1,403
+Horning_2001_thesis / Autoignition_ n_Alkane,Ar,95.2,1,CCCCCCC,0.4,431,Species,4.4,5.71,,Stanford,15.3,±5,CH,1431,±1,120
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,86,0.5,CCCC,1,431,Speceis,13,1.12,±1,Stanford,15.3,±5,CH,1389,±1,204
+Horning_2001_thesis / Autoignition_ n_Alkane,Ar,90.8,0.5,CCCCCCC,0.4,431,Species,8.8,1.3,,Stanford,15.3,±5,CH,1347,±1,286
+n_Alkane_Oxidation,Ar,99.3883,0.8,CCCCCCCCCC,0.03,431,Species,0.5817,2.11,,Stanford,8.9,±5,CH,1462, ±1.5,206
+n_Dodecane / Vasu_2010_thesis,N2,78.107,1,CCCCCCCCCCCC,1.123,306,Species,20.77,25.9,,Stanford,5,±5,OH,855,±1,875
+blend_surrogate_fuels,N2,77.526,1,CCCCCCC,1.874,306.7,Species,20.6,55.4,,Stanford,5,,OH,932,±1.8,323
+Autoignition_ n_Alkane / Horning_2001_thesis,Ar,86,0.5,CCCC,1,431,Speceis,13,1.11,±1,Stanford,15.3,±5,CH,1385,±1,206
+n_Dodecane_Nano,N2,99.204,1,CCCCCCCCCCCC,0.046,430,Speceis,0.75,2.17,,Stanford,15.3,,CH,1607,,84
+n_Dodecane / Vasu_2010_thesis,N2,78.107,1,CCCCCCCCCCCC,1.123,306,Species,20.77,22.5,,Stanford,5,±5,OH,869,±1,1040
+aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.842,1.02,CCCCCCCCCCCC,1.158,430,Speceis,21,5.05,±9.3,Stanford,15.3,,CH,954,±1,4169

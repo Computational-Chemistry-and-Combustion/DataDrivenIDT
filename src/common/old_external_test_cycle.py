@@ -103,6 +103,11 @@ class old_external_test_cycle():
                 #storing all the files
                 dir_name = SF.check_directory_N_AddNum(str(self.curr_directory)+'/all_test_result/result') #checking directory
 
+                #result dataset
+                result_data = df.copy(deep=True)
+                result_data = result_data.rename(columns={"Time(μs)": "log_Time(μs)"})
+                result_data = pd.merge(external_data, result_data, left_index=True, right_index=True,how='left')
+
                 ###linear regression
                 for i in range(num_of_clusters):
                         #clustering process
@@ -150,6 +155,14 @@ class old_external_test_cycle():
                         cluster_dataframe['Time(μs)_predicted'] = y_pred
                         # result = loaded_model.score(X_test, Y_test)
 
+                        joing_cols = ['Constant', 'log_P(atm)', 'log_Fuel(%)', 'log_Oxidizer(%)', 'T0/S_H__T','T0/T', 'Class']
+                        result_data = result_data.merge(cluster_dataframe,on=joing_cols,how='left')
+                        try:
+                                result_data = result_data.drop(columns=['Time(μs)_actual_y', 'Time(μs)_predicted_y'])
+                                result_data = result_data.rename(columns={'Time(μs)_actual_x': 'Time(μs)_actual','Time(μs)_predicted_x':'Time(μs)_predicted'})
+                        except KeyError:
+                                pass
+                        
                         SF.check_directory(str(self.curr_directory)+'/external_test_result/console_output/') #checking directory
                         SF.check_directory(str(self.curr_directory)+'/external_test_result/classified_data/') #checking directory
                         SF.check_file_existence(str(self.curr_directory)+"/external_test_result/console_output/output_result.txt")
@@ -256,7 +269,12 @@ class old_external_test_cycle():
                         plt.legend(loc='lower right',handlelength=1, borderpad=1.2, labelspacing=0.5,framealpha=0.5,fontsize=12)
                         # plt.savefig(str(self.curr_directory)+'/external_test_result/prediction_comparison_plots/ignition_delay_external_'+str(cluster_label[i])+'.eps', format='eps', dpi=600)
                         plt.close()
-        
+
+                column_to_move = result_data.pop("Time(μs)")
+                result_data.insert(len(result_data.columns), "Time(μs)", column_to_move )
+                result_data['Time(μs)_exp_predicted'] = np.exp(result_data['Time(μs)_predicted'])
+                result_data.to_csv(str(self.curr_directory)+'/external_test_result/PredictionResult.csv',index=False)
+                
                 #Overall RMSE
                 f = open(str(self.curr_directory)+"/external_test_result/console_output/output_result.txt", "a")
                 # '''

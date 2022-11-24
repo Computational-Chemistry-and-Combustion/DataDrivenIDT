@@ -67,10 +67,16 @@ class select_feature():
                 warnings.warn('\n Dataset contains some empty cell or NAN values')
                 df = df.fillna(0)   
 
-            print('\n')
-            if(np.sum(df.any().sum) != 0):
-                warnings.warn('\n Column containing all zeros are removed')
-                df = df.loc[:, df.any()]             #Removing All the columns with zeros entries 
+            ###Date: 12-March-2022
+            # Removed this part as in testing in case-column with log-ones or zero comes
+            # it creates trouble and we are only transferring new dataframe it won't affect code
+            
+            # print('\n')
+            # if(np.sum(df.any().sum) != 0):
+            #     warnings.warn('\n Column containing all zeros are removed')
+            #     print('Shape earlier :',df.shape)
+            #     df = df.loc[:, df.any()]             #Removing All the columns with zeros entries 
+            #     print('Shape after :',df.shape)
 
             #how many rows there are with "one or more NaNs"
             No_of_NaN = df.isnull().T.any().T.sum()

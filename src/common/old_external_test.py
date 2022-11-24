@@ -59,6 +59,7 @@ class old_external_test():
                 '''
                 Adding test set from external source to predict new fuel 
                 '''
+                print('External data loading done \n\n')
                 #finding out the straight chain alkanes
                 warnings.warn('Processing only with straight chain Alkanes')
                 try:
@@ -76,6 +77,8 @@ class old_external_test():
 
                 # print('In Select feature')
                 df,tau = Sel_feat.feature_selection(external_data)
+
+
                 # print('Out Select feature')
                 
                 # print('In finding total clusters')
@@ -94,6 +97,7 @@ class old_external_test():
                 
                 #Again joining the dependent value to the df, as it is easy to identify dependent variable when seperated by class
                 df['Time(μs)'] = tau
+
                 ###################################################################################
                 ##################  For generating relative error in prediction ###################
                 ###################################################################################
@@ -102,6 +106,11 @@ class old_external_test():
                 
                 testdata_points_in_cluster = []  #number of data points of testset in cluster
                 rmse_cluster = [] #associated rmse of that cluster 
+                
+                #result dataset
+                result_data = df.copy(deep=True)
+                result_data = result_data.rename(columns={"Time(μs)": "log_Time(μs)"})
+                result_data = pd.merge(external_data, result_data, left_index=True, right_index=True,how='left')
 
                 ###linear regression
                 for i in range(num_of_clusters):
@@ -149,6 +158,20 @@ class old_external_test():
                         cluster_dataframe['Time(μs)_actual'] = y_test_external
                         cluster_dataframe['Time(μs)_predicted'] = y_pred
                         # result = loaded_model.score(X_test, Y_test)
+                        joing_cols = ['Constant', 'log_P(atm)', 'log_Fuel(%)', 'log_Oxidizer(%)', 'T0/S_H__T','T0/T', 'Class']
+                        result_data = result_data.merge(cluster_dataframe,on=joing_cols,how='left')
+                        try:
+                                result_data['Time(μs)_actual_x'] = result_data['Time(μs)_actual_x'].fillna(0)
+                                result_data['Time(μs)_actual_y'] = result_data['Time(μs)_actual_y'].fillna(0)
+                                result_data['Time(μs)_predicted_x'] = result_data['Time(μs)_predicted_x'].fillna(0)
+                                result_data['Time(μs)_predicted_y'] = result_data['Time(μs)_predicted_y'].fillna(0)
+                                result_data['Time(μs)_actual'] = result_data['Time(μs)_actual_y'] + result_data['Time(μs)_actual_x']
+                                result_data['Time(μs)_predicted'] = result_data['Time(μs)_predicted_y'] + result_data['Time(μs)_predicted_x']
+                                result_data = result_data.drop(columns=['Time(μs)_actual_y', 'Time(μs)_predicted_y','Time(μs)_actual_x', 'Time(μs)_predicted_x'])
+                                print(result_data)
+                        except KeyError:
+                                print('KEY ERROR')
+                                pass
 
                         SF.check_directory(str(self.curr_directory)+'/external_test_result/console_output/') #checking directory
                         SF.check_directory(str(self.curr_directory)+'/external_test_result/classified_data/') #checking directory
@@ -252,7 +275,15 @@ class old_external_test():
                         plt.tight_layout()
                         # plt.savefig(str(self.curr_directory)+'/external_test_result/prediction_comparison_plots/ignition_delay_external_'+str(cluster_label[i])+'.eps', format='eps', dpi=600)
                         plt.close()
-        
+
+                column_to_move = result_data.pop("Time(μs)")
+                result_data.insert(len(result_data.columns), "Time(μs)", column_to_move )
+                result_data['Time(μs)_exp_predicted'] = np.exp(result_data['Time(μs)_predicted'])
+
+                drop_dupli_cols = ['Constant', 'log_P(atm)', 'log_Fuel(%)', 'log_Oxidizer(%)', 'T0/S_H__T','T0/T', 'Class']
+                result_data = result_data.drop_duplicates(subset=drop_dupli_cols, keep='first')
+                result_data.to_csv(str(self.curr_directory)+'/external_test_result/PredictionResult.csv',index=False)
+
                 #Overall RMSE
                 f = open(str(self.curr_directory)+"/external_test_result/console_output/output_result.txt", "a")
                 # '''

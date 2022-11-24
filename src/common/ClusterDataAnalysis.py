@@ -64,3 +64,7 @@ plt.title("Fraction of fuel in each cluster")
 plt.xticks(ind+width,fuelLength)
 plt.legend( tuple(bar) , fileName )
 plt.show()
+
+
+
+

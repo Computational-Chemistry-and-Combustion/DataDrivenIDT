@@ -77,3 +77,7 @@ def ClusterDataAnalysis(curr_dir,dataset_location):
         os.mkdir(curr_dir+'/result/AnalysisResult/fuelDataCount/')
         plt.savefig(curr_dir+'/result/AnalysisResult/fuelDataCount/dataFuel_fraction.eps',dpi=600,orientation ='landscape')
     plt.show()
+
+
+
+

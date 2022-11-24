@@ -89,9 +89,10 @@ class combined_N_analyze_all_test_result():
 			'''
 			df = pd.read_csv(str(self.result_dir)+'/final.csv')
 			for i in range(len(df)):
-				actual = df.iloc[i,6]
-				data = df.iloc[i,7:]
+				actual = df.iloc[i,7]
+				data = df.iloc[i,8:]
 				data_mean = sum(data)/len(data)
+				s_deviation = data.std(ddof=0)
 				sns.distplot(data, hist=True, kde=True, color = 'blue',hist_kws={'edgecolor':'black'})
 				plt.xlabel('Variation in prediction of Ingition delay')
 				plt.ylabel('Probability Density')
@@ -123,17 +124,19 @@ class combined_N_analyze_all_test_result():
 			bins = 70
 			fontsize=19
 			for i in range(len(df)):
-				actual = df.iloc[i,6]
-				data = df.iloc[i,7:]
+				actual = df.iloc[i,7]
+				data = df.iloc[i,8:]
 				hist, bin_edges = np.histogram(data, bins=bins)
 				data_max_frquent = bin_edges[np.argmax(hist)]
+				data_mean = data.mean()
+				s_deviation = data.std(ddof=0)
 				plt.rc('text', usetex=True)
 				sns.distplot(data, hist=True, kde=True, color='blue',hist_kws={'edgecolor':'black'},bins=bins)
 				plt.xlabel('Variation in prediction of ignition delay',fontsize=fontsize)
 				plt.ylabel('Probability Density',fontsize=fontsize,)
 				plt.axvline(data_max_frquent, color='k', linestyle='dashed', linewidth=1)
 				_, max_ = plt.ylim()
-				plt.xlim([4.5, 9.00])
+				plt.xlim([data_mean-(3*s_deviation),data_mean+(3*s_deviation)]) #updated plot limit in 3*sigma
 				plt.text(data_max_frquent,max_/2,'Most frequent : {:.2f}'.format(data_max_frquent),horizontalalignment='center',verticalalignment='bottom',bbox=dict(facecolor='red', alpha=0.5),fontsize=fontsize)
 				plt.yticks(fontsize=fontsize, rotation=0)
 				plt.xticks(fontsize=fontsize, rotation=0)
@@ -164,8 +167,8 @@ class combined_N_analyze_all_test_result():
 			Comment out fitst two lines if you want to just plot the graphs 
 			and already have results
 			'''
-			self.combine_Files()
-			self.merged_all_file()
+			# self.combine_Files()
+			# self.merged_all_file()
 			self.plot_Hist()
 			self.plot_Hist_max()
 
@@ -174,3 +177,5 @@ if __name__ == "__main__":
 	# combined = combined_N_analyze_all_test_result(dir_path)
 	# combined.process()
 	print('test')
+
+

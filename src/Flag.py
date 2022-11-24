@@ -72,19 +72,19 @@ class Flag():
                 if(analysis_type=='distribution'):
                     from common.featureAnalyze.ClusterDataAnalysis import ClusterDataAnalysis
                     ClusterDataAnalysis(curr_dir=curr_directory,dataset_location=dataset_location)
-                    
+                    pass
                 if(analysis_type=='parameter'):
                     from common.featureAnalyze.clusterParamaterAnalysis import clusterParamaterAnalysis
                     clusterParamaterAnalysis(curr_dir=curr_directory,dataset_location=dataset_location)
-                    
+                    pass
                 if(analysis_type=='pressure'):
                     from common.featureAnalyze.PressureAnalysis import PressureAnalysis
                     PressureAnalysis(curr_dir=curr_directory,dataset_location=dataset_location)
-                    
+                    pass
                 if(analysis_type=='temperature'):
                     from common.featureAnalyze.tempAnalysis import tempAnalysis
                     tempAnalysis(curr_dir=curr_directory,dataset_location=dataset_location)
-                    
+                    pass
 
             elif (Flag_value == '-b'):
                 # '''
