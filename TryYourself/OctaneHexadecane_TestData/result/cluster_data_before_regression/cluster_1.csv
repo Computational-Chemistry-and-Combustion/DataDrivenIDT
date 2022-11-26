@@ -1,0 +1,143 @@
+,Data_Source,Diluant Type,Diluant(%),Equv(phi),Fuel,Fuel(%),Measured_wavelength(nm),Mode_of_measurement,Oxidizer(%),P(atm),P_Error(%),Research_group,Shocktube_dia(cm),Species_measurement_Error,Species_name,T(K),T_Error(%),Time(μs)
+114,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,10.62,,Stanford,5.0,,OH,1305,±1.8,117
+115,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,11.24,,Stanford,5.0,,OH,1236,±1.8,207
+116,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,10.25,,Stanford,5.0,,OH,1299,±1.8,122
+117,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,10.27,,Stanford,5.0,,OH,1344,±1.8,85
+118,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,11.8,,Stanford,5.0,,OH,1290,±1.8,118
+119,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,19.87,,Stanford,5.0,,OH,906,±1.8,1836
+120,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,18.13,,Stanford,5.0,,OH,1012,±1.8,944
+121,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,16.72,,Stanford,5.0,,OH,1048,±1.8,854
+122,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,48.6,,Stanford,5.0,,OH,985,±1.8,364
+123,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,57.7,,Stanford,5.0,,OH,1007,±1.8,232
+124,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,53.6,,Stanford,5.0,,OH,1013,±1.8,292
+125,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,54.2,,Stanford,5.0,,OH,1023,±1.8,261
+126,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,59.1,,Stanford,5.0,,OH,1027,±1.8,237
+127,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,50.0,,Stanford,5.0,,OH,1057,±1.8,194
+128,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,53.1,,Stanford,5.0,,OH,1063,±1.8,179
+129,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,52.3,,Stanford,5.0,,OH,1115,±1.8,102
+162,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,20.0,,Stanford,5.0,,OH,806,±1.8,1377
+163,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,19.92,,Stanford,5.0,,OH,850,±1.8,1653
+164,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,53.9,,Stanford,5.0,,OH,909,±1.8,254
+165,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,60.0,,Stanford,5.0,,OH,923,±1.8,244
+166,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,60.6,,Stanford,5.0,,OH,926,±1.8,233
+167,blend_surrogate_fuels,N2,77.526,1.0,CCCCCCC,1.874,306.7,Species,20.6,55.4,,Stanford,5.0,,OH,932,±1.8,323
+197,Haylett_2011_thesis,N2,77.56,1.06,CCCCCCCCCC,1.44,430.0,Species,21.0,5.14, ±9.6,Stanford,15.3, ±9.6,CH,1081, ±2,1696
+198,Haylett_2011_thesis,N2,77.506,1.1,CCCCCCCCCC,1.494,430.0,Species,21.0,4.87, ±9.6,Stanford,15.3, ±9.6,CH,1131, ±2,1252
+199,Haylett_2011_thesis,N2,77.105,1.4,CCCCCCCCCC,1.895,430.0,Species,21.0,5.15, ±9.6,Stanford,15.3, ±9.6,CH,1154, ±2,921
+200,Haylett_2011_thesis,N2,77.528,1.09,CCCCCCCCCC,1.472,430.0,Species,21.0,4.56, ±9.6,Stanford,15.3, ±9.6,CH,1109, ±2,1358
+201,Haylett_2011_thesis,N2,76.433,1.89,CCCCCCCCCC,2.567,430.0,Species,21.0,4.93, ±9.6,Stanford,15.3, ±9.6,CH,1173, ±2,950
+211,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,N2,78.3156,0.6,CCCCCCCCCCCC,0.6844,430.0,Speceis,21.0,6.12,±9.3,Stanford,15.3,,CH,1127,±1,797
+212,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,N2,78.0635,0.82,CCCCCCCCCCCC,0.9365,430.0,Speceis,21.0,7.88,±9.3,Stanford,15.3,,CH,1050,±1,1034
+213,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,N2,78.2129,0.69,CCCCCCCCCCCC,0.7871,430.0,Speceis,21.0,8.02,±9.3,Stanford,15.3,,CH,1084,±1,738
+214,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,N2,78.3115,0.61,CCCCCCCCCCCC,0.6885,430.0,Speceis,21.0,8.5,±9.3,Stanford,15.3,,CH,1114,±1,640
+215,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,N2,78.0503,0.84,CCCCCCCCCCCC,0.9497,430.0,Speceis,21.0,8.53,±9.3,Stanford,15.3,,CH,1179,±1,220
+216,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,N2,77.9754,0.9,CCCCCCCCCCCC,1.0246,430.0,Speceis,21.0,7.88,±9.3,Stanford,15.3,,CH,1167,±1,215
+217,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.2661,0.65,CCCCCCCCCCCC,0.7339,430.0,Speceis,21.0,6.37,±9.3,Stanford,15.3,,CH,1168,±1,484
+218,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.814,0.16,CCCCCCCCCCCC,0.186,430.0,Speceis,21.0,4.64,±9.3,Stanford,15.3,,CH,1209,±1,926
+219,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.7466,0.22,CCCCCCCCCCCC,0.2534,430.0,Speceis,21.0,4.93,±9.3,Stanford,15.3,,CH,1163,±1,1800
+220,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.6563,0.3,CCCCCCCCCCCC,0.3437,430.0,Speceis,21.0,5.06,±9.3,Stanford,15.3,,CH,1192,±1,1110
+221,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.5944,0.36,CCCCCCCCCCCC,0.4056,430.0,Speceis,21.0,4.87,±9.3,Stanford,15.3,,CH,976,±1,6220
+222,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.0703,0.82,CCCCCCCCCCCC,0.9297,430.0,Speceis,21.0,5.0,±9.3,Stanford,15.3,,CH,903,±1,7825
+223,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.6512,0.31,CCCCCCCCCCCC,0.3488,430.0,Speceis,21.0,4.79,±9.3,Stanford,15.3,,CH,1241,±1,337
+224,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.7936,0.18,CCCCCCCCCCCC,0.2064,430.0,Speceis,21.0,4.51,±9.3,Stanford,15.3,,CH,1351,±1,233
+225,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.8095,0.17,CCCCCCCCCCCC,0.1905,430.0,Speceis,21.0,5.65,±9.3,Stanford,15.3,,CH,1112,±1,2281
+226,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.496,1.32,CCCCCCCCCCCC,1.504,430.0,Speceis,21.0,6.26,±9.3,Stanford,15.3,,CH,838,±1,5352
+227,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.711,1.14,CCCCCCCCCCCC,1.289,430.0,Speceis,21.0,5.82,±9.3,Stanford,15.3,,CH,964,±1,1175
+228,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.506,1.32,CCCCCCCCCCCC,1.494,430.0,Speceis,21.0,6.01,±9.3,Stanford,15.3,,CH,932,±1,1559
+229,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.9442,0.05,CCCCCCCCCCCC,0.0558,430.0,Speceis,21.0,5.34,±9.3,Stanford,15.3,,CH,1156,±1,1526
+230,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.9338,0.06,CCCCCCCCCCCC,0.0662,430.0,Speceis,21.0,5.2,±9.3,Stanford,15.3,,CH,1134,±1,2006
+231,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4664,0.47,CCCCCCCCCCCC,0.5336,430.0,Speceis,21.0,6.19,±9.3,Stanford,15.3,,CH,1172,±1,524
+232,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.411,0.52,CCCCCCCCCCCC,0.589,430.0,Speceis,21.0,6.4,±9.3,Stanford,15.3,,CH,1191,±1,550
+233,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4351,0.5,CCCCCCCCCCCC,0.5649,430.0,Speceis,21.0,6.56,±9.3,Stanford,15.3,,CH,1053,±1,2105
+234,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.484,0.45,CCCCCCCCCCCC,0.516,430.0,Speceis,21.0,6.4,±9.3,Stanford,15.3,,CH,1068,±1,2126
+235,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4977,0.44,CCCCCCCCCCCC,0.5023,430.0,Speceis,21.0,6.32,±9.3,Stanford,15.3,,CH,1078,±1,1624
+236,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4345,0.5,CCCCCCCCCCCC,0.5655,430.0,Speceis,21.0,6.32,±9.3,Stanford,15.3,,CH,1086,±1,1422
+237,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4467,0.49,CCCCCCCCCCCC,0.5533,430.0,Speceis,21.0,6.25,±9.3,Stanford,15.3,,CH,1107,±1,1200
+238,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4322,0.5,CCCCCCCCCCCC,0.5678,430.0,Speceis,21.0,6.18,±9.3,Stanford,15.3,,CH,1118,±1,1081
+239,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.424,0.51,CCCCCCCCCCCC,0.576,430.0,Speceis,21.0,6.07,±9.3,Stanford,15.3,,CH,1140,±1,820
+240,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.3703,0.55,CCCCCCCCCCCC,0.6297,430.0,Speceis,21.0,5.92,±9.3,Stanford,15.3,,CH,1345,±1,123
+241,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.5405,0.4,CCCCCCCCCCCC,0.4595,430.0,Speceis,21.0,5.78,±9.3,Stanford,15.3,,CH,1319,±1,181
+242,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.2099,0.7,CCCCCCCCCCCC,0.7901,430.0,Speceis,21.0,8.09,±9.3,Stanford,15.3,,CH,1117,±1,412
+243,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.3028,0.61,CCCCCCCCCCCC,0.6972,430.0,Speceis,21.0,8.24,±9.3,Stanford,15.3,,CH,1124,±1,702
+244,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.3205,0.6,CCCCCCCCCCCC,0.6795,430.0,Speceis,21.0,4.23,±9.3,Stanford,15.3,,CH,993,±1,5732
+245,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.769,1.08,CCCCCCCCCCCC,1.231,430.0,Speceis,21.0,4.86,±9.3,Stanford,15.3,,CH,921,±1,6085
+246,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.72,1.13,CCCCCCCCCCCC,1.28,430.0,Speceis,21.0,5.21,±9.3,Stanford,15.3,,CH,943,±1,3804
+247,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.76,1.09,CCCCCCCCCCCC,1.24,430.0,Speceis,21.0,4.98,±9.3,Stanford,15.3,,CH,932,±1,4627
+248,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.842,1.02,CCCCCCCCCCCC,1.158,430.0,Speceis,21.0,5.05,±9.3,Stanford,15.3,,CH,954,±1,4169
+249,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.884,0.98,CCCCCCCCCCCC,1.116,430.0,Speceis,21.0,4.1,±9.3,Stanford,15.3,,CH,1061,±1,959
+250,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.0376,0.85,CCCCCCCCCCCC,0.9624,430.0,Speceis,21.0,4.36,±9.3,Stanford,15.3,,CH,1019,±1,1828
+251,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.0,0.88,CCCCCCCCCCCC,1.0,430.0,Speceis,21.0,4.49,±9.3,Stanford,15.3,,CH,976,±1,2555
+252,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.125,0.77,CCCCCCCCCCCC,0.875,430.0,Speceis,21.0,4.57,±9.3,Stanford,15.3,,CH,1192,±1,246
+253,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.1071,0.79,CCCCCCCCCCCC,0.8929,430.0,Speceis,21.0,4.88,±9.3,Stanford,15.3,,CH,1118,±1,587
+254,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4344,0.5,CCCCCCCCCCCC,0.5656,430.0,Speceis,21.0,4.01,±9.3,Stanford,15.3,,CH,1146,±1,1027
+255,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.17,0.73,CCCCCCCCCCCC,0.83,430.0,Speceis,21.0,4.43,±9.3,Stanford,15.3,,CH,1035,±1,1803
+256,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.258,0.65,CCCCCCCCCCCC,0.742,430.0,Speceis,21.0,4.68,±9.3,Stanford,15.3,,CH,1003,±1,4081
+257,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.724,1.12,CCCCCCCCCCCC,1.276,430.0,Speceis,21.0,4.97,±9.3,Stanford,15.3,,CH,1147,±1,357
+258,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.5121,0.43,CCCCCCCCCCCC,0.4879,430.0,Speceis,21.0,8.63,±9.3,Stanford,15.3,,CH,1220,±1,292
+259,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.2922,0.62,CCCCCCCCCCCC,0.7078,430.0,Speceis,21.0,5.33,±9.3,Stanford,15.3,,CH,1172,±1,663
+260,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.821,1.04,CCCCCCCCCCCC,1.179,430.0,Speceis,21.0,6.57,±9.3,Stanford,15.3,,CH,1011,±1,1100
+261,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.834,1.03,CCCCCCCCCCCC,1.166,430.0,Speceis,21.0,7.0,±9.3,Stanford,15.3,,CH,940,±1,2599
+262,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.831,1.03,CCCCCCCCCCCC,1.169,430.0,Speceis,21.0,6.57,±9.3,Stanford,15.3,,CH,958,±1,2041
+263,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.0015,0.88,CCCCCCCCCCCC,0.9985,430.0,Speceis,21.0,6.25,±9.3,Stanford,15.3,,CH,921,±1,5556
+264,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4537,0.48,CCCCCCCCCCCC,0.5463,430.0,Speceis,21.0,5.69,±9.3,Stanford,15.3,,CH,1037,±1,2607
+265,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.4266,0.51,CCCCCCCCCCCC,0.5734,430.0,Speceis,21.0,5.76,±9.3,Stanford,15.3,,CH,1049,±1,2581
+266,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1126,,1069
+267,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1145,,605
+268,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1173,,475
+269,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1175,,675
+270,n_Dodecane_Nano,N2,78.79,0.18,CCCCCCCCCCCC,0.21,430.0,Speceis,21.0,7.1,,Stanford,15.3,,CH,1187,,793
+271,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1141,,680
+272,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1187,,395
+273,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1224,,253
+274,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1108,,1339
+275,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1196,,229
+289,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,22.7,,Stanford,5.0,±5,OH,910,±1,2134
+290,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,18.1,,Stanford,5.0,±5,OH,943,±1,2276
+291,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,20.3,,Stanford,5.0,±5,OH,996,±1,1245
+292,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,21.0,,Stanford,5.0,±5,OH,1039,±1,826
+293,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,18.9,,Stanford,5.0,±5,OH,1049,±1,839
+294,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,20.1,,Stanford,5.0,±5,OH,1054,±1,788
+295,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,18.4,,Stanford,5.0,±5,OH,1082,±1,566
+296,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,19.6,,Stanford,5.0,±5,OH,1087,±1,527
+297,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,30.9,,Stanford,5.0,±5,OH,1117,±1,266
+298,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,20.3,,Stanford,5.0,±5,OH,1118,±1,346
+299,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,21.0,,Stanford,5.0,±5,OH,1149,±1,261
+300,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,21.2,,Stanford,5.0,±5,OH,1163,±1,213
+301,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,20.8,,Stanford,5.0,±5,OH,1177,±1,165
+302,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,23.4,,Stanford,5.0,±5,OH,907,±1,1081
+303,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,21.0,,Stanford,5.0,±5,OH,942,±1,1116
+304,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,20.0,,Stanford,5.0,±5,OH,953,±1,1141
+305,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,19.8,,Stanford,5.0,±5,OH,957,±1,1064
+306,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,20.5,,Stanford,5.0,±5,OH,976,±1,800
+307,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,22.9,,Stanford,5.0,±5,OH,978,±1,912
+308,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,22.0,,Stanford,5.0,±5,OH,987,±1,699
+309,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,21.8,,Stanford,5.0,±5,OH,991,±1,645
+310,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,20.4,,Stanford,5.0,±5,OH,992,±1,739
+311,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,22.4,,Stanford,5.0,±5,OH,1008,±1,570
+312,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,22.3,,Stanford,5.0,±5,OH,1015,±1,508
+313,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,22.1,,Stanford,5.0,±5,OH,1036,±1,432
+314,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,19.4,,Stanford,5.0,±5,OH,1087,±1,403
+315,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,20.8,,Stanford,5.0,±5,OH,1102,±1,268
+316,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,23.3,,Stanford,5.0,±5,OH,1107,±1,298
+317,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,23.0,,Stanford,5.0,±5,OH,1109,±1,278
+318,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,33.7,,Stanford,5.0,±5,OH,1118,±1,183
+319,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,24.0,,Stanford,5.0,±5,OH,1123,±1,262
+320,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,18.7,,Stanford,5.0,±5,OH,1125,±1,188
+321,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,20.6,,Stanford,5.0,±5,OH,1135,±1,178
+338,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1173,,475
+339,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.7926,0.18,CCCCCCCCCCCC,0.2074,430.0,Speceis,21.0,4.0,±9.3,Stanford,15.3,,CH,1078,±1,5605
+340,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.3902,0.54,CCCCCCCCCCCC,0.6098,430.0,Speceis,21.0,6.71,±9.3,Stanford,15.3,,CH,1045,±1,2753
+342,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,76.862,1.88,CCCCCCCCCCCC,2.138,430.0,Speceis,21.0,5.04,±9.3,Stanford,15.3,,CH,979,±1,306
+343,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.01,1.75,CCCCCCCCCCCC,1.99,430.0,Speceis,21.0,6.46,±9.3,Stanford,15.3,,CH,988,±1,260
+344,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,77.198,1.59,CCCCCCCCCCCC,1.802,430.0,Speceis,21.0,6.31,±9.3,Stanford,15.3,,CH,939,±1,544
+345,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.2428,0.67,CCCCCCCCCCCC,0.7572,430.0,Speceis,21.0,6.23,±9.3,Stanford,15.3,,CH,1249,±1,114
+346,aerosol_shock_tube / aerosol_shock_tube_low pressure / Second_generation_confo / Second_Generation_shock_tube ,Ar,78.1724,0.73,CCCCCCCCCCCC,0.8276,430.0,Speceis,21.0,6.42,±9.3,Stanford,15.3,,CH,1284,±1,80
+347,n_Dodecane_Nano,N2,78.61,0.34,CCCCCCCCCCCC,0.39,430.0,Speceis,21.0,7.53,,Stanford,15.3,,CH,1243,,130
+348,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1249,,84
+349,n_Dodecane_Nano,N2,78.43,0.5,CCCCCCCCCCCC,0.57,430.0,Speceis,21.0,6.7,,Stanford,15.3,,CH,1238,,109
+357,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,26.0,,Stanford,5.0,±5,OH,747,±1,2243
+358,n_Dodecane / Vasu_2010_thesis,N2,78.545,0.5,CCCCCCCCCCCC,0.565,306.0,Species,20.89,25.0,,Stanford,5.0,±5,OH,806,±1,1522
+359,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,26.9,,Stanford,5.0,±5,OH,818,±1,881
+360,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,23.3,,Stanford,5.0,±5,OH,822,±1,805
+361,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,25.9,,Stanford,5.0,±5,OH,855,±1,875
+362,n_Dodecane / Vasu_2010_thesis,N2,78.107,1.0,CCCCCCCCCCCC,1.123,306.0,Species,20.77,22.5,,Stanford,5.0,±5,OH,869,±1,1040
