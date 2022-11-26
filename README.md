@@ -1,18 +1,6 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5774617.svg)](https://doi.org/10.5281/zenodo.5774617)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5795476.svg)](https://doi.org/10.5281/zenodo.5795476)
 
-[![CodeFactor](https://www.codefactor.io/repository/github/computational-chemistry-and-combustion/datadrivenidt/badge/main)](https://www.codefactor.io/repository/github/computational-chemistry-and-combustion/datadrivenidt/overview/main)
 <a href="https://zenodo.org/badge/latestdoi/373245755"><img src="https://zenodo.org/badge/373245755.svg" alt="DOI"></a>
-[![codecov](https://codecov.io/gh/Computational-Chemistry-and-Combustion/DataDrivenIDT/branch/main/graph/badge.svg?token=N83D9RS9HQ)](https://codecov.io/gh/Computational-Chemistry-and-Combustion/DataDrivenIDT)
-
-[![Build Status](https://app.travis-ci.com/Computational-Chemistry-and-Combustion/DataDrivenIDT.svg?branch=main)](https://app.travis-ci.com/Computational-Chemistry-and-Combustion/DataDrivenIDT)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FData_driven_Kinetics.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FComputational-Chemistry-and-Combustion%2FData_driven_Kinetics?ref=badge_shield)
-![GitHub top language](https://img.shields.io/github/languages/top/Computational-Chemistry-and-Combustion/DataDrivenIDT)
-![GitHub](https://img.shields.io/github/license/Computational-Chemistry-and-Combustion/DataDrivenIDT)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Computational-Chemistry-and-Combustion/DataDrivenIDT)
-[![Open Source Love](https://img.shields.io/badge/Open-source-%3C3)](https://img.shields.io/badge/Open-source-%3C3)
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)](https://twitter.com/intent/tweet?text=Want\+to\+predict\+ignition\+delay\+?\+Try\+out\+DataDrivenIDT\+Framework:&url=https%3A%2F%2Fgithub.com%2FComputational-Chemistry-and-Combustion%2FDataDrivenIDT)
 
 
 
